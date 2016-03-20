@@ -4,5 +4,27 @@
 }
 
 body {
-	background: black;
+	background: red;
+}
+
+header{
+	background: url(http://www.hdwallpaper.nu/wp-content/uploads/2015/12/manchester-united_wallpaper_45.jpg);
+	background-size: cover;
+	height: 100vh;
+}
+
+.title {
+	position: absolute;
+	top: 20%
+	left 70%;
+	transform: translate(70%, 50%);
+	color: red;
+	text-align: center;
+	font-size: 3em;
+}
+
+#main {
+	width:60%;
+	margin: 20px auto;
+	text-align: center;
 }
